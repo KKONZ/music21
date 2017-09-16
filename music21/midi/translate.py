@@ -2879,7 +2879,7 @@ class Test(unittest.TestCase):
                  (0, 'KEY_SIGNATURE', None),
                  (0, 'TIME_SIGNATURE', None),
                  (0, 'NOTE_ON', 69),
-                 (0, 'NOTE_OFF', 69),
+                 (1024, 'NOTE_OFF', 69),
                  (0, 'NOTE_ON', 71),
                  (1024, 'NOTE_OFF', 71),
                  (0, 'NOTE_ON', 73),
